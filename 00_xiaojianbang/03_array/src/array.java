@@ -8,5 +8,15 @@ public class array {
             }
         }
         System.out.println(max);
+
+
+        // 随机数
+        int[] arr2 = new int[10];
+        for (int i = 0; i < arr2.length; i++) {
+            arr2[i] = (int)(Math.random() * 100);
+        }
+        for (int j : arr2) {
+            System.out.println(j);
+        }
     }
 }
