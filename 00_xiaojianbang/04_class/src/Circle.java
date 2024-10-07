@@ -1,6 +1,6 @@
 public class Circle {
 
-    double radius;
+    double radius = 0;
 
     public Circle(double radius) {
         this.radius = radius;
@@ -18,5 +18,11 @@ public class Circle {
         double area = 0;
         area = Math.PI * radius * radius;
         return area;
+    }
+
+    public static void main(String[] args) {
+        Circle circle = new Circle(10);
+        System.out.println(circle.get_perimeter());
+        System.out.println(circle.get_area());
     }
 }
