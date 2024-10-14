@@ -1,10 +1,9 @@
-package A_05;
+package A_06;
 
 public class Main {
     public static void main(String[] args) {
         int[] arr = {12, 39, 90, 13};
-        int[] arr2 = {4, 0, 3};
         Example example = new Example();
-        System.out.println(example.get_sum(arr, arr2));
+        System.out.println(example.get_min(arr));
     }
 }
